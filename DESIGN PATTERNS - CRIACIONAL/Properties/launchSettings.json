@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "DESIGN PATTERNS - CRIACIONAL": {
+      "commandName": "Project",
+      "commandLineArgs": "--uber",
+      "workingDirectory": "C:\\Users\\Faell\\source\\repos\\DESIGNPATTERNS\\PADROES_GOF\\PADROES\\DESIGN PATTERNS - CRIACIONAL",
+      "nativeDebugging": true,
+      "sqlDebugging": false,
+      "jsWebView2Debugging": false,
+      "remoteDebugEnabled": false
+    }
+  }
+}
