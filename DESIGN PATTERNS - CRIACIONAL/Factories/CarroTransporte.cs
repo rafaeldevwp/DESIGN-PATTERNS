@@ -7,7 +7,7 @@ using DESIGN_PATTERNS___CRIACIONAL.Veiculos;
 
 namespace DESIGN_PATTERNS___CRIACIONAL.Factories
 {
-    internal class CarroTransporte : Transporte
+    public class CarroTransporte : Transporte
     {
         protected override IVeiculo CriarTransporte()
         {

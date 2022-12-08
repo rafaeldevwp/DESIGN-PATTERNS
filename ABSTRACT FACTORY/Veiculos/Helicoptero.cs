@@ -2,7 +2,7 @@
 
 namespace ABSTRACT_FACTORY.Veiculos
 {
-    internal class Helicoptero : ITransporteAereo
+    public class Helicoptero : ITransporteAereo
     {
         public void IniciarTrajeto()
         {

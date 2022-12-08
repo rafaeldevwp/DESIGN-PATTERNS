@@ -4,7 +4,7 @@ using System;
 
 namespace DESIGN_PATTERNSCRIACIONAL
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {

@@ -6,7 +6,7 @@ using System.Reflection.Emit;
 
 namespace BUILDER
 {
-    internal class Program
+    public class Program
     {
         static void Main(string[] args)
         {

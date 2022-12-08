@@ -3,7 +3,7 @@ using System;
 
 namespace ABSTRACT_FACTORY
 {
-    internal class Program
+    public class Program
     {
         static Aplicacao ConfigureApplication()
         {

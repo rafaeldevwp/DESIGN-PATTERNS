@@ -2,7 +2,7 @@
 
 namespace DESIGN_PATTERNS___CRIACIONAL.Factories
 {
-    internal class MotoTransporte : Transporte
+    public class MotoTransporte : Transporte
     {
         protected override IVeiculo CriarTransporte()
         {

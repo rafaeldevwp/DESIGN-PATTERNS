@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DESIGN_PATTERNS___CRIACIONAL.Veiculos
 {
-    internal class Moto : IVeiculo
+    public class Moto : IVeiculo
     {
         public void IniciarTrajeto()
         {
