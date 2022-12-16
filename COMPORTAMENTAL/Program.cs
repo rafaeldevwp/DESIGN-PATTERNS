@@ -1,4 +1,6 @@
-﻿using COMPORTAMENTAL.Chain_of_Responsibility.Sender;
+﻿using COMPORTAMENTAL.Command.Command_Exemplo_SQL.Concreto;
+using COMPORTAMENTAL.Command.Command_Exemplo_SQL.Invokers;
+using COMPORTAMENTAL.Command.Command_Exemplo_SQL.Receivers;
 using System;
 
 namespace COMPORTAMENTAL
@@ -7,9 +9,15 @@ namespace COMPORTAMENTAL
     {
         static void Main(string[] args)
         {
-            Sender sender = new Sender();
-            sender.RealizarVerificacao();
-            Console.ReadLine(); 
+            Invoker invoker = new Invoker();
+            Receiver receiver = new Receiver();
+
+            var query = Console.ReadLine();
+
+            invoker.SetCommand(new SQLCommands(receiver, query));
+            invoker.ExecutarCommando();
+
+            Console.ReadLine();
         }
     }
 }
